@@ -38,7 +38,7 @@ if(demopass == 1)
     
     vesta           = 1;        % assume VESTA
     
-    fs              = 24 * 9.6e3;
+%     fs              = 24 * 9.6e3;
     
     if(vesta)
         sat             = 43781;        % EV6 for times used below
@@ -80,21 +80,21 @@ end
 
 demopass            = 0;
 
-Doppname        = 'DoppTestFwd9p6';
+Doppname        = 'DoppTestFwd9p6Test';
 % frequencies, etc. to assume for forward link
 fsband      = 2234.5e6;
 fvhf        = 157.3825e6;
 
-[lenDoppOS, minDopp, maxDopp, DoppOS, sat_el1, sat_el2, mattime] = VESTA_DopplerCalcV10bDeployed( ...
+[lenDoppOS, minDopp, maxDopp, DoppOS, sat_el1, sat_el2, mattime] = VESTA_DopplerCalcV10b( ...
     sat, tt, passdurnsec, fs, SHLatLong, GSLatLong, fsband, fvhf, Doppname, demopass);
 
-Doppname        = 'DoppTestRtn9p6';
+Doppname        = 'DoppTestRtn9p6Test';
 % frequencies, etc. to assume for return link
 
 fsband      = 2060.0e6;
 fvhf        = 161.8625e6;
 
-[lenDoppOS, minDopp, maxDopp, DoppOS, sat_el1, sat_el2, mattime] = VESTA_DopplerCalcV10bDeployed( ...
+[lenDoppOS, minDopp, maxDopp, DoppOS, sat_el1, sat_el2, mattime] = VESTA_DopplerCalcV10b( ...
     sat, tt, passdurnsec, fs, SHLatLong, GSLatLong, fsband, fvhf, Doppname, demopass);
 
 [idx dump]  = find(sat_el1>0);
