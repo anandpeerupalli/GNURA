@@ -21,10 +21,6 @@
       <value></value>
     </param>
     <param>
-      <key>copyright</key>
-      <value></value>
-    </param>
-    <param>
       <key>description</key>
       <value></value>
     </param>
@@ -77,20 +73,12 @@
       <value>True</value>
     </param>
     <param>
-      <key>sizing_mode</key>
-      <value>fixed</value>
-    </param>
-    <param>
       <key>thread_safe_setters</key>
       <value></value>
     </param>
     <param>
       <key>title</key>
       <value>VDES ASM Receiver</value>
-    </param>
-    <param>
-      <key>placement</key>
-      <value>(0,0)</value>
     </param>
   </block>
   <block>
@@ -414,7 +402,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>60</value>
+      <value>46</value>
     </param>
   </block>
   <block>
@@ -657,7 +645,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1</value>
+      <value>4</value>
     </param>
   </block>
   <block>
@@ -684,7 +672,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>firdes.complex_band_pass(-1, samp_rate*os_factor, -samp_rate*os_factor/3.8,samp_rate*os_factor/3.8, Dopp_resamp_transition_bw)</value>
+      <value>firdes.complex_band_pass(-1, samp_rate*os_factor, -samp_rate*os_factor/3.7,samp_rate*os_factor/3.7, Dopp_resamp_transition_bw)</value>
     </param>
   </block>
   <block>
@@ -738,7 +726,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>firdes.low_pass(-1, samp_rate*os_factor*rate_decimation_RxFront, samp_rate*os_factor/2, rx_frontend_transition_bw)</value>
+      <value>firdes.low_pass(-1, samp_rate*os_factor*rate_decimation_RxFront, samp_rate*os_factor*.95/2, rx_frontend_transition_bw)</value>
     </param>
   </block>
   <block>
@@ -792,7 +780,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>samp_rate*os_factor/16</value>
+      <value>samp_rate*os_factor*rate_decimation_RxFront/16</value>
     </param>
   </block>
   <block>
@@ -1193,7 +1181,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1220,7 +1208,7 @@
     <key>analog_agc2_xx</key>
     <param>
       <key>attack_rate</key>
-      <value>0 * 1e-2 + 1e-1</value>
+      <value>1e-2 + 0*1e-1</value>
     </param>
     <param>
       <key>alias</key>
@@ -1236,11 +1224,11 @@
     </param>
     <param>
       <key>decay_rate</key>
-      <value>1e-2+ 0 * 1e-1</value>
+      <value>0*1e-2+  2e-1</value>
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1299,7 +1287,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1471,7 +1459,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>2</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1510,7 +1498,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1812,7 +1800,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2000,7 +1988,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2051,7 +2039,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2200,7 +2188,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2651,7 +2639,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>file</key>
@@ -2753,7 +2741,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2804,7 +2792,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2855,7 +2843,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2949,7 +2937,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -3051,7 +3039,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -3176,7 +3164,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -3219,7 +3207,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -3341,7 +3329,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>length</key>
@@ -3522,7 +3510,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -3581,7 +3569,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -3605,7 +3593,7 @@
     </param>
     <param>
       <key>samp_rate</key>
-      <value>samp_rate*os_factor</value>
+      <value>samp_rate*os_factor*rate_decimation_RxFront</value>
     </param>
     <param>
       <key>taps</key>
@@ -3699,7 +3687,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -4031,7 +4019,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -4070,7 +4058,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -4148,7 +4136,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -4226,7 +4214,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -4304,7 +4292,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -4343,7 +4331,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -4386,7 +4374,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -4429,7 +4417,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -5441,7 +5429,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>fftsize</key>
@@ -6039,7 +6027,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>fftsize</key>
@@ -6629,7 +6617,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -6910,10 +6898,6 @@
     <param>
       <key>srate</key>
       <value>samp_rate/os_factor</value>
-    </param>
-    <param>
-      <key>stemplot</key>
-      <value>False</value>
     </param>
     <param>
       <key>tr_chan</key>
@@ -7279,10 +7263,6 @@
       <value>samp_rate</value>
     </param>
     <param>
-      <key>stemplot</key>
-      <value>False</value>
-    </param>
-    <param>
       <key>tr_chan</key>
       <value>0</value>
     </param>
@@ -7646,10 +7626,6 @@
       <value>samp_rate/os_factor</value>
     </param>
     <param>
-      <key>stemplot</key>
-      <value>False</value>
-    </param>
-    <param>
       <key>tr_chan</key>
       <value>0</value>
     </param>
@@ -7730,7 +7706,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -8011,10 +7987,6 @@
     <param>
       <key>srate</key>
       <value>samp_rate/os_factor</value>
-    </param>
-    <param>
-      <key>stemplot</key>
-      <value>False</value>
     </param>
     <param>
       <key>tr_chan</key>
@@ -8855,7 +8827,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1224, 1416)</value>
+      <value>(1200, 1400)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -8871,7 +8843,7 @@
     </param>
     <param>
       <key>clock_source0</key>
-      <value></value>
+      <value>gpsdo</value>
     </param>
     <param>
       <key>sd_spec0</key>
@@ -10186,7 +10158,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -10365,7 +10337,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -10498,7 +10470,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -10561,7 +10533,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -10608,7 +10580,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>

@@ -21,10 +21,6 @@
       <value></value>
     </param>
     <param>
-      <key>copyright</key>
-      <value></value>
-    </param>
-    <param>
       <key>description</key>
       <value></value>
     </param>
@@ -225,7 +221,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>.2</value>
+      <value>8/8</value>
     </param>
   </block>
   <block>
@@ -468,7 +464,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>10</value>
+      <value>4</value>
     </param>
   </block>
   <block>
@@ -495,7 +491,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>10</value>
+      <value>4</value>
     </param>
   </block>
   <block>
@@ -630,7 +626,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>2344</value>
+      <value>76</value>
     </param>
   </block>
   <block>
@@ -819,7 +815,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>R_S*1.25</value>
+      <value>R_S*1.5</value>
     </param>
   </block>
   <block>
@@ -1035,7 +1031,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>6</value>
+      <value>4</value>
     </param>
   </block>
   <block>
@@ -1596,7 +1592,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/usrp/gnuradio_downloads/modules/gr-vesta/examples/msg_handling/BinaryPayloadData/randomdata/2344.dat</value>
+      <value>/home/usrp/gnuradio_downloads/modules/gr-vesta/examples/msg_handling/BinaryPayloadData/randomdata/328.dat</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1655,11 +1651,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>file</key>
-      <value>/home/usrp/Documents/SpectrumRecordings/VESTA_Stimulus48kSymb_SVDoppT239_11Nov18_48_2344b.bin</value>
+      <value>/home/usrp/Documents/SpectrumRecordings/VESTA_StimulusM9p6kSymb_SVDoppT239_11Nov18_48_328b.bin</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1902,7 +1898,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(440, 732)</value>
+      <value>(536, 732)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2259,7 +2255,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(672, 736)</value>
+      <value>(720, 736)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2655,7 +2651,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/usrp/Documents/Waveforms/wave files/Doppler_RTN_fs288000ksps.wav</value>
+      <value>/home/usrp/Documents/Waveforms/wave files/Doppler_FWD_fs288000ksps.wav</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2706,7 +2702,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/usrp/Documents/Waveforms/wave files/Doppler_FWD_fs288000ksps.wav</value>
+      <value>/home/usrp/Documents/Waveforms/wave files/Doppler_RTN_fs288000ksps.wav</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -3223,7 +3219,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1360, 504)</value>
+      <value>(1384, 496)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -6912,10 +6908,6 @@
       <value>samp_rate/os_factor</value>
     </param>
     <param>
-      <key>stemplot</key>
-      <value>False</value>
-    </param>
-    <param>
       <key>tr_chan</key>
       <value>0</value>
     </param>
@@ -7000,7 +6992,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1232, 348)</value>
+      <value>(1144, 332)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -7277,10 +7269,6 @@
     <param>
       <key>srate</key>
       <value>samp_rate</value>
-    </param>
-    <param>
-      <key>stemplot</key>
-      <value>False</value>
     </param>
     <param>
       <key>tr_chan</key>
@@ -7646,10 +7634,6 @@
       <value>samp_rate/os_factor</value>
     </param>
     <param>
-      <key>stemplot</key>
-      <value>False</value>
-    </param>
-    <param>
       <key>tr_chan</key>
       <value>0</value>
     </param>
@@ -8011,10 +7995,6 @@
     <param>
       <key>srate</key>
       <value>samp_rate/os_factor</value>
-    </param>
-    <param>
-      <key>stemplot</key>
-      <value>False</value>
     </param>
     <param>
       <key>tr_chan</key>
@@ -8831,7 +8811,7 @@
     </param>
     <param>
       <key>clock_rate</key>
-      <value>R_S*sps*128</value>
+      <value>R_S*sps*512</value>
     </param>
     <param>
       <key>comment</key>
@@ -8855,7 +8835,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1224, 1416)</value>
+      <value>(1200, 1400)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -8871,7 +8851,7 @@
     </param>
     <param>
       <key>clock_source0</key>
-      <value></value>
+      <value>gpsdo</value>
     </param>
     <param>
       <key>sd_spec0</key>
@@ -10166,7 +10146,7 @@
     </param>
     <param>
       <key>clock_rate</key>
-      <value>R_S*sps*128</value>
+      <value>R_S*sps*512</value>
     </param>
     <param>
       <key>comment</key>
@@ -10442,6 +10422,10 @@
   <block>
     <key>vesta_burst_scheduler_fatdma</key>
     <param>
+      <key>barrier_multiplier</key>
+      <value>5</value>
+    </param>
+    <param>
       <key>alias</key>
       <value></value>
     </param>
@@ -10470,12 +10454,24 @@
       <value>vesta_burst_scheduler_fatdma_0</value>
     </param>
     <param>
+      <key>increment</key>
+      <value>9600</value>
+    </param>
+    <param>
       <key>maxoutbuf</key>
       <value>0</value>
     </param>
     <param>
       <key>minoutbuf</key>
       <value>0</value>
+    </param>
+    <param>
+      <key>repeat</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>slot_len</key>
+      <value>256</value>
     </param>
   </block>
   <block>
